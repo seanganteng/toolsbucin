@@ -31,7 +31,7 @@ ctrl_c() {
 clear
 echo -e $red"[#]> (Ctrl + C ) Detected, Trying 
 To Exit ... "
-echo -e $cyan"[#]> terimakasih "
+echo -e $cyan"[#]> Thanks"
 sleep 1
 echo ""
 echo -e $white"[#]> see you :)..."
@@ -56,8 +56,10 @@ echo -e $r "6  ShellPhish${endc}";
 echo -e "+__________________________+" | lolcat
 echo -e $r "7  Litedos${endc}";
 echo -e "+__________________________+" | lolcat
+echo -e $b "8  Torshammer{endc}";			
+ench -e "+__________________________+" | lolcat
 
-echo -e $r "10 Exit${endc}";
+echo -e $r "10 keluar${endc}";
 echo ""
 echo -e "╭>MC" |lolcat
 read -p "╰─#" pil;
@@ -123,6 +125,17 @@ echo -e "$cara menggunakan"
 echo -e "cd LITEDDOS"
 echo -e "ython2 LITEDDOS.py IP Target Port Jumlah Traffic DDOS"
 
+;;
+
+#Torshammer
+
+8) git clone https://github.com/dotfighter/torshammer.git
+echo -e "cara menggunakan"
+echo -e "pkg install tor"
+echo -e "tor"
+echo -e "pkg install python2"
+echo -e "cd torshammer"
+echo -e "python2 torshammer.py"
 ;;
 
 10) echo "created by : Mr SMF" | lolcat
