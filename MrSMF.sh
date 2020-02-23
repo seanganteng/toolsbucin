@@ -18,8 +18,7 @@ cyan='\e[1;36m'
 red='\e[1;31m'
 
 figlet ! Mr SMF ! | lolcat
-echo -e  "Tools    : Mr SMF $white         
-" |lolcat
+echo -e  "Tools    : Mr SMF $white         " |lolcat
 echo -e  "dibuat oleh  : Mr SMF $white   " |lolcat
 echo -e  "web : https://techsmichael.000webhostapp.com
 $white " |lolcat
@@ -57,9 +56,7 @@ echo -e "+__________________________+" | lolcat
 echo -e $r "7  Litedos${endc}";
 echo -e "+__________________________+" | lolcat
 echo -e $b "8  Torshammer{endc}";			
-ench -e "+__________________________+" | lolcat
-echo -e $g "9  main moon-buggy{endc}";  
-echo -e "+__________________________+"  
+ench -e "+__________________________+" | lolcat  
  
 echo -e $r "10 keluar${endc}";
 echo ""
@@ -140,13 +137,6 @@ echo -e "cd torshammer"
 echo -e "python2 torshammer.py"
 
 ;;
-
-#main moon-buggy
-
-9)bermain moon-buggy
-echo -e "pkg install moon-buggy"
-echo -e "moon-buggy"
-
 
 10) echo "created by : Mr SMF" | lolcat
 exit
