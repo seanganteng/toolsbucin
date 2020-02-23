@@ -57,7 +57,7 @@ echo -e "+__________________________+" | lolcat
 echo -e $r "7  Litedos${endc}";
 echo -e "+__________________________+" | lolcat
 echo -e $b "8  Torshammer{endc}";			
-ench -e "+__________________________+" | lolcat
+echo -e "+__________________________+" | lolcat
 
 echo -e $r "10 keluar${endc}";
 echo ""
