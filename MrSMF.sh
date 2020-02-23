@@ -56,9 +56,11 @@ echo -e $r "6  ShellPhish${endc}";
 echo -e "+__________________________+" | lolcat
 echo -e $r "7  Litedos${endc}";
 echo -e "+__________________________+" | lolcat
-echo -e $b "8  Torshammer${endc}";			
-echo -e "+__________________________+" | lolcat
-
+echo -e $b "8  Torshammer{endc}";			
+ench -e "+__________________________+" | lolcat
+echo -e $g "9  main moon-buggy{endc}";  
+echo -e "+__________________________+"  
+ 
 echo -e $r "10 keluar${endc}";
 echo ""
 echo -e "╭>MC" |lolcat
@@ -136,7 +138,15 @@ echo -e "tor"
 echo -e "pkg install python2"
 echo -e "cd torshammer"
 echo -e "python2 torshammer.py"
+
 ;;
+
+#main moon-buggy
+
+9)bermain moon-buggy
+echo -e "pkg install moon-buggy"
+echo -e "moon-buggy"
+
 
 10) echo "created by : Mr SMF" | lolcat
 exit
